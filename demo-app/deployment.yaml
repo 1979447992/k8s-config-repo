@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: 47.83.206.116:30002/library/demo-app:f062b1fd9dd8ffe88e9a09c88bae7b2001e16c00
+        image: 47.83.206.116:30002/library/demo-app:5e5a15493818d333564e2a35c56f871740b821a3
         ports:
         - containerPort: 8080
         livenessProbe:
